@@ -1,11 +1,18 @@
 /* This is for the font style imported from google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* Nav style */
+body{
+    background-image: url("/git-dev-portfolio/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    background-size: 100%;
+}
 nav{
     display: flex;
     margin-left: 60px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     cursor: pointer;
+    justify-content: space-between;
 }
 /* Navigation title */
 .Nav-title{
@@ -23,10 +30,12 @@ nav{
     justify-content: space-between;
     margin-left: 50%;
     font-size: 20px;
+    margin-right: 100px;
 }
 /* Ancor tag for remnove ancor tag underline */
 a{
     text-decoration: none;
+    color:rgb(0, 0, 0); 
 }
 /* ul for remove ul point */
 ul{
@@ -41,4 +50,15 @@ ul{
     background-color: rgba(253, 110, 10, 1);
     border-radius: 10px;
     cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+/* developer image editing */
+.developer{
+    display: flex;
+    justify-content: space-between;
+}
+/* Hardy image edit */
+.Hardy{
+    margin-right: 3%;
 }
