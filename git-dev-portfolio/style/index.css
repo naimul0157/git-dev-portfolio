@@ -1,12 +1,12 @@
 /* This is for the font style imported from google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-/* Nav style */
 body{
     background-image: url("/git-dev-portfolio/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: 100px 100px;
     background-size: 100%;
 }
+/* Nav style */
 nav{
     display: flex;
     margin-left: 60px;
@@ -61,4 +61,32 @@ ul{
 /* Hardy image edit */
 .Hardy{
     margin-right: 3%;
+    padding-left: 100px;
+}
+/* In section section tag inside the div all are edited by the class name="about_me" */
+.About_me{
+    margin-top: 20%;
+    justify-content: baseline;
+    text-align: initial;
+    padding-left: 10%;
+}
+/* in section there is a h2 tag where hi, iam written */
+section div h2{
+    font-size: 30px;
+}
+/* IN section tag h1 where Hardy name is written*/
+section div h1{
+    font-size: 40px;
+}
+/* IN section tag paragraph written */
+section div p{
+    font-size: 20px;
+}
+/* Button deisgn in section tag */
+button{
+    cursor: pointer;
+    padding: 5px 30px;
+    margin-right: 15px;
+    background-color: rgba(253, 110, 10, 1);
+    border-radius: 10px;
 }
