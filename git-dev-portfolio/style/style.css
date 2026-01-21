@@ -52,6 +52,7 @@ ul{
     cursor: pointer;
     color: white;
     font-weight: bold;
+    border: none;
 }
 /* developer image editing */
 .developer{
@@ -89,4 +90,5 @@ button{
     margin-right: 15px;
     background-color: rgba(253, 110, 10, 1);
     border-radius: 10px;
+    border: none;
 }
