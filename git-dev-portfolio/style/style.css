@@ -93,17 +93,16 @@ button{
     border: none;
 }
 .first_div{
-    background-color: rgb(150, 90, 16);
-    margin: 100px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    background-color: rgba(248, 246, 243, 0.651);
+    margin: 10% 10%;
+    padding-top: 3px;
+    padding-bottom: 50px;
 }
 .second_div{
     text-align: center;
-    margin-left: 387px;
-    margin-right: 386px;
+    margin-left: 50px;
     margin-top: 100px;
+    margin-right: 100px;
     border: 1px solid black;
-    padding-right: 50px;
-    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.329);
 }
