@@ -1,7 +1,7 @@
 /* This is for the font style imported from google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-    background-image: url("/git-dev-portfolio/images/header_bg.png");
+.developer{
+        background-image: url("/git-dev-portfolio/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: 100px 100px;
     background-size: 100%;
@@ -91,4 +91,19 @@ button{
     background-color: rgba(253, 110, 10, 1);
     border-radius: 10px;
     border: none;
+}
+.first_div{
+    background-color: rgb(150, 90, 16);
+    margin: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.second_div{
+    text-align: center;
+    margin-left: 387px;
+    margin-right: 386px;
+    margin-top: 100px;
+    border: 1px solid black;
+    padding-right: 50px;
+    padding-left: 50px;
 }
