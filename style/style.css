@@ -161,6 +161,7 @@ button{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
+    margin-bottom: 20%;
 }
 /* paragraph into resume design */
 .Resume p{
@@ -170,4 +171,39 @@ button{
 .instituation{
     color: rgba(117, 117, 117, 1);
     font-size: 20px;
+}
+.last-stage{
+    background-color: #ffc8a01a;
+    display: flex;
+    gap: 10%;
+}
+.connect h2{
+    text-align: center;
+}
+.connect p{
+    margin-left: 20%;
+}
+#name{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 24px;
+}
+#email{
+     width: 300px;
+    height: 50px;
+    margin-bottom: 24px;
+}
+#message{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 24px;
+}
+#btn-design{
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
