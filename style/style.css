@@ -154,3 +154,20 @@ button{
     text-align: left;
     padding: 0px;
 }
+/* resume section design */
+.Resume{
+    display: flex;
+    gap: 42px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+/* paragraph into resume design */
+.Resume p{
+    color: rgba(117, 117, 117, 1);
+}
+/* update the instituation name */
+.instituation{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+}
