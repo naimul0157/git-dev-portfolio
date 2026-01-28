@@ -85,15 +85,13 @@ button{
 }
 /* About me design */
 .Description{
-    padding: 131px 157px;
-    border: 1px solid blue;
+    padding: 50px 100px;
     margin-left: 230px;
     margin-right: 230px;
     margin-top: 100px;
-       background-color: rgba(255, 248, 243, 1);
+    background-color: rgba(255, 248, 243, 1);
 }
 .Inside-description{
-    border: 1px solid blue;
     background-color: white;
 }
 
@@ -127,4 +125,33 @@ button{
     text-align: center;
     padding-left: 345px;
     padding-right: 346px;
+}
+/* this all abouth fourth section */
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    padding: 50px 50px;
+}
+.icon{
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 5px 10px 5px rgb(109, 103, 103);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin:0px 15px;
+}
+.head{
+    text-align: center;
+}
+.para{
+    color: rgba(117, 117, 117, 1);
+}
+.img{
+    text-align: left;
+    padding: 0px;
 }
