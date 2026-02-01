@@ -4,7 +4,7 @@
     font-family:'Open Sans';
 }
 .developer{
-        background-image: url("/images/header_bg.png");
+        background-image: url("header_bg.png");
     background-repeat: no-repeat;
     background-position: 100px 100px;
     background-size: 100%;
@@ -143,6 +143,7 @@ button{
     border-radius: 10px;
     justify-content: space-evenly;
     margin:0px 15px;
+    cursor: pointer;
 }
 .head{
     text-align: center;
@@ -225,6 +226,7 @@ button{
 }
 input {
     padding-left: 10px;
+    display: block;
 }
 
 input:focus {
