@@ -26,7 +26,6 @@ nav{
 .R_color{
     color: blueviolet;
 }
-/* right side navigation style */
 .Navigation{
     display: flex;
     gap: 60px;
@@ -253,6 +252,16 @@ input:focus {
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .Resume{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .last-stage{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .last-stage{
         flex-direction: column;
     }
 }
