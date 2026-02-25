@@ -3,12 +3,17 @@
 *{
     font-family:'Open Sans';
 }
+/* .container{
+    width: 100%;
+    margin:auto;
+} */
 .developer{
     display: flex;
-     background-image: url("header_bg.png");
+    background-image: url("header_bg.png");
     background-repeat: no-repeat;
     background-position: 1000px 100px;
     background-size: 50%;
+    justify-content: space-between;
 }
 /* Nav style */
 nav{
@@ -264,6 +269,9 @@ input:focus {
     .img {
     width: 100%;
 }
+    .About_me{
+        padding-left: 0px;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .fourth{
@@ -292,10 +300,14 @@ input:focus {
          background-size: 100%;
         margin: 0px;
         padding: 0px;
-        padding-right: 5%;
+        padding-right: 2%;
         width: 100%;
     }
     .img {
     width: 100%;
+    justify-content: center;
 }
+      .About_me{
+        padding-left: 0px;
+    }
 }
