@@ -232,3 +232,27 @@ input {
 input:focus {
     outline: none;
 }
+/* resposibe layout */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .fourth{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .fourth{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .Resume{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .Resume{
+        flex-direction: column;
+    }
+}
