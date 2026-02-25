@@ -263,7 +263,7 @@ input:focus {
          background-size: 100%;
         margin: 0px;
         padding: 0px;
-        padding-right: 5%;
+        padding-right: 2%;
         width: 100%;
     }
     .img {
@@ -296,11 +296,10 @@ input:focus {
     .Hardy{
          background-image: url("header_bg.png");
          background-repeat: no-repeat;
-         background-position: -20px 100%;
+         background-position: -0px 100%;
          background-size: 100%;
         margin: 0px;
         padding: 0px;
-        padding-right: 2%;
         width: 100%;
     }
     .img {
@@ -309,5 +308,9 @@ input:focus {
 }
       .About_me{
         padding-left: 0px;
+    }
+    .owner_image{
+        display: flex;
+        justify-content: space-around;
     }
 }
