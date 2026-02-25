@@ -181,7 +181,8 @@ button{
     text-align: center;
 }
 .connect p{
-    margin-left: 15%;
+    /* margin-left: 15%; */
+    text-align: center;
 }
 #name{
     width: 300px;
