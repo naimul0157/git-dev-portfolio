@@ -253,6 +253,16 @@ input:focus {
         padding: 5px 5px;
         margin: 20px 20px;
     }
+    .developer {
+      background-image: none;
+      flex-direction: column;
+    }
+    .Hardy{
+        margin: 0px;
+        padding: 0px;
+        padding-right: 5%;
+        width: 300px;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .fourth{
