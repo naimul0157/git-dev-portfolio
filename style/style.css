@@ -4,10 +4,10 @@
     font-family:'Open Sans';
 }
 .developer{
-        background-image: url("header_bg.png");
+     background-image: url("header_bg.png");
     background-repeat: no-repeat;
-    background-position: 100px 100px;
-    background-size: 100%;
+    background-position: 1000px 100px;
+    background-size: 50%;
 }
 /* Nav style */
 nav{
@@ -63,7 +63,6 @@ ul{
 }
 /* Hardy image edit */
 .Hardy{
-    margin-right: 3%;
     padding-left: 100px;
 }
 /* In section section tag inside the div all are edited by the class name="about_me" */
@@ -254,15 +253,23 @@ input:focus {
         margin: 20px 20px;
     }
     .developer {
+
       background-image: none;
       flex-direction: column;
     }
     .Hardy{
+         background-image: url("header_bg.png");
+         background-repeat: no-repeat;
+         background-position: -20px 100%;
+         background-size: 100%;
         margin: 0px;
         padding: 0px;
         padding-right: 5%;
-        width: 300px;
+        width: 100%;
     }
+    .img {
+    width: 100%;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .fourth{
