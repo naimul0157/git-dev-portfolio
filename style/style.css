@@ -240,29 +240,35 @@ input:focus {
     .fourth{
         flex-direction: column;
     }
+     .Resume{
+        flex-direction: column;
+    }
+       .last-stage{
+        flex-direction: column;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .Description{
+        padding: 5px 5px;
+        margin: 20px 20px;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .fourth{
         flex-direction: column;
     }
-}
-@media screen and (max-width: 576px) {
-    .Resume{
+       .Resume{
         flex-direction: column;
     }
-}
-@media screen and (min-width: 577px) and (max-width: 992px) {
-    .Resume{
+       .last-stage{
         flex-direction: column;
     }
-}
-@media screen and (max-width: 576px) {
-    .last-stage{
+     .about-items{
         flex-direction: column;
     }
-}
-@media screen and (min-width: 577px) and (max-width: 992px) {
-    .last-stage{
-        flex-direction: column;
+       .Description{
+        padding: 5px 5px;
+        margin: 5px 5px;
     }
 }
