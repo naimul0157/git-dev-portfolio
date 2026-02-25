@@ -13,12 +13,12 @@
     background-repeat: no-repeat;
     background-position: 1000px 100px;
     background-size: 50%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /* Nav style */
 nav{
     display: flex;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     cursor: pointer;
     justify-content: space-between;
@@ -27,18 +27,18 @@ nav{
 .Nav-title{
     font-size: 45px;
     margin: 0px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 .R_color{
     color: blueviolet;
 }
 .Navigation{
     display: flex;
-    gap: 60px;
+    gap: 30%;
     justify-content: space-between;
     margin-left: 50%;
     font-size: 20px;
-    margin-right: 100px;
+    margin-right: 7%;
 }
 /* Ancor tag for remnove ancor tag underline */
 a{
@@ -51,10 +51,10 @@ ul{
 }
 /* Hire class from button tag to style button */
 .Hire{
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
     background-color: rgba(253, 110, 10, 1);
     border-radius: 10px;
     cursor: pointer;
@@ -71,7 +71,7 @@ ul{
     margin-top: 15%;
     justify-content: baseline;
     text-align: initial;
-    padding-left: 10%;
+    /* padding-left: 10%; */
 }
 /* Button deisgn in section tag */
 button{
@@ -272,6 +272,25 @@ input:focus {
     .About_me{
         padding-left: 0px;
     }
+        nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-around;
+    }
+    .Nav-title{
+        padding-left: 0px;
+    }
+    .Navigation{
+        font-size: 10px;
+    }
+    .Hire{
+        padding: 0px 10px;
+    }
+    .Navigation li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .fourth{
@@ -313,4 +332,24 @@ input:focus {
         display: flex;
         justify-content: space-around;
     }
+    nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-around;
+    }
+    .Nav-title{
+        padding-left: 0px;
+    }
+    .Navigation{
+        font-size: 10px;
+    }
+    .Hire{
+        padding: 0px 10px;
+    }
+    .Navigation li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
 }
