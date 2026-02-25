@@ -4,6 +4,7 @@
     font-family:'Open Sans';
 }
 .developer{
+    display: flex;
      background-image: url("header_bg.png");
     background-repeat: no-repeat;
     background-position: 1000px 100px;
@@ -55,11 +56,6 @@ ul{
     color: white;
     font-weight: bold;
     border: none;
-}
-/* developer image editing */
-.developer{
-    display: flex;
-    justify-content: space-between;
 }
 /* Hardy image edit */
 .Hardy{
@@ -253,8 +249,6 @@ input:focus {
         margin: 20px 20px;
     }
     .developer {
-
-      background-image: none;
       flex-direction: column;
     }
     .Hardy{
@@ -288,4 +282,20 @@ input:focus {
         padding: 5px 5px;
         margin: 5px 5px;
     }
+    .developer{
+        flex-direction: column;
+    }
+    .Hardy{
+         background-image: url("header_bg.png");
+         background-repeat: no-repeat;
+         background-position: -20px 100%;
+         background-size: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-right: 5%;
+        width: 100%;
+    }
+    .img {
+    width: 100%;
+}
 }
