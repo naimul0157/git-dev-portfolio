@@ -233,10 +233,11 @@ input {
 input:focus {
     outline: none;
 }
-/* resposibe layout */
+/* /* resposibe layout * */
 .hide{
     display: none;
 }
+/* media query for small devices */
 @media screen and (max-width: 576px) {
     .fourth{
         flex-direction: column;
@@ -298,6 +299,7 @@ input:focus {
         align-items: center;
     }
 }
+/* media query for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .fourth{
         flex-direction: column;
